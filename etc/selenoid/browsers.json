@@ -1,0 +1,15 @@
+{
+  "chrome": {
+    "default": "93.0",
+    "versions": {
+      "93.0": {
+        "image": "aerokube/selenoid:93",
+        "port": "4444",
+        "path": "/",
+        "env": [
+          "TZ=Europe/Moscow"
+        ]
+      }
+    }
+  }
+}
